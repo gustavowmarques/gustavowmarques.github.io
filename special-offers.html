@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Order Lunch Today - Sugar Love</title>
+<title>Sugar Love - Special Offers</title>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -14,13 +14,13 @@
   ga('create', 'UA-88928407-2', 'auto');
   ga('send', 'pageview');
 
-  function a_function()
-{
-alert("Thank you for subscribing");
-}
 </script>
-<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	
+
+	
+	
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body id="top">
 <!-- ################################################################################################ -->
@@ -28,27 +28,26 @@ alert("Thank you for subscribing");
   <header id="header" class="clear">
     <!-- ################################################################################################ -->
     <nav id="mainav" class="fl_left">
-   		  <ul class="clear" style="padding-top: 46px;">
-   	        <li><a href="index.html">Home</a></li>
-   			<li class="active"><a href="about-us.html">About us</a>
+	  <ul class="clear" style="padding-top: 46px;">
+        <li><a href="index.html">Home</a></li>
+		<li class="active"><a href="about-us.html">About us</a>
 		<ul>
             <li><a href="special-offers.html">Special Offers</a></li>
 		</ul></li>
-   	        <li><a class="drop" href="#">Baked Goods</a>
-   	          <ul>
-   	            <li><a href="pastry.html">Pastries</a></li>
-   	            <li><a href="bread.html">Breads</a></li>
-   	            <li><a href="cakes.html">Speciality Cakes</a></li>
-   	          </ul>
-   	        </li>
-   	         <li><a class="drop" href="#">Catering</a>
-   	           <ul> <li><a href="corporate-catering.html">Corporate</a></li>
-   			         <li><a href="home-catering.html">Special Occasion</a></li>
+        <li><a class="drop" href="#">Baked Goods</a>
+          <ul>
+            <li><a href="pastry.html">Pastries</a></li>
+            <li><a href="catering.html">Breads</a></li>
+            <li><a href="cakes.html">Speciality Cakes</a></li>
+          </ul>
+        </li>
+         <li><a class="drop" href="#">Catering</a>
+           <ul> <li><a href="corporate-catering.html">Corporate</a></li>
+		         <li><a href="home-catering.html">Special Occasion</a></li>
 
-   	          </ul>
-   	        <li class="active"><a class="drop" href="contact-us.html">Contact us</a></li>
-   	        	<ul><li><a href="order.html">Order</a></li></ul>
-   	      </ul>
+          </ul>
+        <li><a href="contact-us.html">Contact us</a></li>
+      </ul>
     </nav>
     <!-- ################################################################################################ -->
     <div id="logo" class="fl_right">
@@ -57,7 +56,10 @@ alert("Thank you for subscribing");
     <!-- ################################################################################################ -->
   </header>
 </div>
-
+<!-- ################################################################################################ -->
+<div class="wrapper">
+  <div id="slider" class="clear">
+    <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <div class="wrapper row3">
   <main class="container clear">
@@ -65,72 +67,34 @@ alert("Thank you for subscribing");
     <!-- ################################################################################################ -->
     <div class="content">
       <!-- ################################################################################################ -->
-      <div id="comments">
-        <h2>Get in touch</h2>
-        <form id="demo-form" data-parsley-validate="">
-          <div class="one_half first">
-            <label for="fullname">Name <span>*</span></label>
-			<input type="text" class="form-control" name="fullname" required="" id="fullname" value="" size="22">
-          </div>
-          <div class="one_half">
-            <label for="email">E-Mail <span>*</span></label>
-			<input type="email" class="form-control" name="email" data-parsley-trigger="change" required="" id="email" value="" size="22">
-          </div>
-		   <div class="block-clear">
-		    <label for="bread">Choose your bread:</label>
-  <select id="bread" required="">
-    <option value="">Choose bread</option>
-    <option value="press">White Sliced</option>
-    <option value="net">Brown Sliced</option>
-    <option value="mouth">White Roll</option>
-    <option value="other">Brown Roll</option>
-	 <option value="mouth">Low GI Roll</option>
-    <option value="other">Low GI Wrap</option>
-	 <option value="mouth">Garlic Wrap</option>
-    <option value="other">Plain Wrap</option>
-  </select>
-		  
-          <div class="block clear">
-            <label for="message">Your message <span>*</span></label>
-			<textarea id="message" class="form-control" name="message" data-parsley-trigger="keyup" required="" data-parsley-minlength="20" data-parsley-maxlength="100" data-parsley-validation-threshold="10" cols="25" rows="10"></textarea>
-          </div>
-          <div>
-            <input name="submit" type="submit" value="Submit">
-            &nbsp;
-            <input name="reset" type="reset" value="Reset">
-          </div>
-        </form>
-      </div>
-	    <script type="text/javascript">
-		  $(function () {
-		  $('#demo-form').parsley().on('field:validated', function() {
-			var ok = $('.parsley-error').length === 0;
-			$('.bs-callout-info').toggleClass('hidden', !ok);
-			$('.bs-callout-warning').toggleClass('hidden', ok);
-		  })
-		  .on('form:success', function() {
-			return false; // Don't submit form for this demo
-		  });
-		});
-		</script>
+      <h1>Special Offers</h1>
+	  
+	    <div id="imgl"><div><img class="imgl borderedbox inspace-1" src="images/intro-offer.jpg" alt="intro-offer"></div> <div> Order one of our special cakes and receive a <strong>50% discount</strong> on yur next order.</div><hr></div>
+	 <div class="clear"></div>
+
+	   <div id="imgl"><div><img class="imgr borderedbox inspace-1" src="images/bakers-dozen.jpeg" alt="Bakers Dozen"></div> <div> Our Bakers Dozen offer is perfect for the office coffee break.</br> Buy any 12 of our small cakes and get the thirteenth <strong>free.</strong></div><hr></div>
+	   <div class="clear"></div>
+
+	 
+	  
+      
+     
+
       <!-- ################################################################################################ -->
-
-
-
     </div>
     <!-- ################################################################################################ -->
-    <!-- / main body -->
-
-  </main>
+   
 </div>
 <!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<div class="wrapper row6" style="text-align:center">
+<div class="wrapper row6">
   <section id="cta" class="clear">
     <!-- ################################################################################################ -->
+    <div class="three_quarter first">
       <h2 class="heading">No event is too large or too small for us.</h2>
       <p>Whether planning an intimate dinner party, black-tie gala or corporate gathering.</p>
-	<!-- ################################################################################################ -->
+    </div>
+    <div class="one_quarter"><a class="btn" href="contact-us.html">Get in touch <span class="fa fa-arrow-right"></span></a></div>
+    <!-- ################################################################################################ -->
   </section>
 </div>
 <!-- ################################################################################################ -->
@@ -174,7 +138,7 @@ alert("Thank you for subscribing");
         <fieldset>
           <legend>Newsletter:</legend>
           <input class="btmspace-15" type="text" value="" placeholder="Email">
-          <button type="button" value="submit" onclick="a_function()">Submit</button>
+          <button type="submit" value="submit">Submit</button>
         </fieldset>
       </form>
     </div>
