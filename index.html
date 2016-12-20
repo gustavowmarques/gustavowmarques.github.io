@@ -15,6 +15,10 @@
   ga('create', 'UA-88928407-2', 'auto');
   ga('send', 'pageview');
 
+  function a_function()
+{
+alert("Thank you for subscribing");
+}
 </script>
 
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
@@ -24,27 +28,29 @@
 <div class="wrapper row1">
   <header id="header" class="clear">
     <!-- ################################################################################################ -->
-    <nav id="mainav" class="fl_left">
+     <nav id="mainav" class="fl_left">
 	  <ul class="clear" style="padding-top: 46px;">
+
         <li class="active"><a href="index.html">Home</a></li>
 				<li><a href="about-us.html">About us</a>
+	
 		<ul>
             <li><a href="special-offers.html">Special Offers</a></li>
 		</ul></li>
-		        <li><a class="drop" href="#">Baked Goods</a>
-		          <ul>
-		            <li><a href="pastry.html">Pastries</a></li>
-		            <li><a href="breads.html">Breads</a></li>
-		            <li><a href="cakes.html">Speciality Cakes</a></li>
-		          </ul>
-		        </li>
-		         <li><a class="drop" href="#">Catering</a>
-		           <ul> <li><a href="corporate-catering.html">Corporate</a></li>
-				         <li><a href="home-catering.html">Special Occasion</a></li>
+        <li><a class="drop" href="#">Baked Goods</a>
+          <ul>
+            <li><a href="pastry.html">Pastries</a></li>
+            <li><a href="catering.html">Breads</a></li>
+            <li><a href="cakes.html">Speciality Cakes</a></li>
+          </ul>
+        </li>
+         <li><a class="drop" href="#">Catering</a>
+           <ul> <li><a href="corporate-catering.html">Corporate</a></li>
+		         <li><a href="home-catering.html">Special Occasion</a></li>
 
-		          </ul>
-		        <li><a href="contact-us.html">Contact us</a></li>
-		      </ul>
+          </ul>
+        <li><a href="contact-us.html">Contact us</a></li>
+      </ul>
     </nav>
 
     <!-- ################################################################################################ -->
@@ -156,7 +162,7 @@
         <fieldset>
           <legend>Newsletter:</legend>
           <input class="btmspace-15" type="text" value="" placeholder="Email">
-          <button type="submit" value="submit">Submit</button>
+          <button type="button" value="submit" onclick="a_function()">Submit</button>
         </fieldset>
       </form>
     </div>
